@@ -1,5 +1,6 @@
 html,body {
   font-family: 'Pathway Gothic One';
+  min-width: 600px;
 }
 
 html {
@@ -7,6 +8,10 @@ html {
   background-size: cover;
   margin: 0;
   padding: 0;
+}
+
+footer {
+  width: 100%;
 }
 
 h1,h2,h3,p,a {
