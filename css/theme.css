@@ -1,5 +1,7 @@
 html,body {
   font-family: 'Pathway Gothic One';
+}
+html,body,footer {
   min-width: 600px;
 }
 
@@ -36,11 +38,16 @@ footer {
 footer .icon-anvils-axes {
   font-size: 3em;
   float: left;
+  margin-right: 10px;
 }
 
 footer p {
   float: left;
-  margin: 15px 0 0 20px;
+  margin: 15px 0 0 10px;
+}
+
+footer a {
+  text-decoration: none
 }
 
 .subtitle,h1 {
