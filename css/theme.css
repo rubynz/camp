@@ -18,6 +18,7 @@ h1 {
   margin-left: 10%;
   width: 2em;
   line-height: 0.9em;
+  text-shadow: #484848 2px 2px;
   font-weight: normal;
 }
 
@@ -47,6 +48,7 @@ footer p {
   margin-bottom: 0;
   clear: both;
   font-family: 'Old Standard TT';
+  text-shadow: #484848 2px 2px;
 }
 
 .ruby {
@@ -85,3 +87,4 @@ footer p {
 .icon-anvils-axes:before {
   content: "\e60a";
 }
+
