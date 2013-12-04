@@ -2,7 +2,7 @@ html,body {
   font-family: 'Pathway Gothic One';
 }
 html,body,footer {
-  min-width: 600px;
+  min-width: 670px;
 }
 
 html {
@@ -16,7 +16,7 @@ footer {
   width: 100%;
 }
 
-h1,h2,h3,p,a {
+h1,h2,h3,p,a, form label {
   color: white;
 }
 
@@ -54,13 +54,16 @@ footer a {
   float: left;
   margin-top: 25px;
 }
-.subtitle p, .subtitle a {
+.subtitle p, .subtitle a, form input, form input[type=submit] {
   font-size: 1.5em;
   margin-top: 0;
   margin-bottom: 0;
   clear: both;
   font-family: 'Old Standard TT';
   text-shadow: #484848 2px 2px;
+}
+form input, form input[type=submit] {
+  text-shadow: none;
 }
 
 .ruby {
@@ -100,3 +103,43 @@ footer a {
   content: "\e60a";
 }
 
+#mc_embed_signup{clear:left; }
+#mc_embed_signup input.email {
+  border-style: solid;
+  border-color: #484848;
+  border-width: 1px;
+  border-radius: 4px;
+  padding: 3px;
+}
+#mc_embed_signup .button {
+  clear: both;
+  background-color: transparent;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.25em;
+  font-weight: normal;
+  height: 44px;
+  line-height: 30px;
+  margin: 0 5px 10px 6px;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: auto;
+}
+#mc_embed_signup .button:hover {
+  background-color: white;
+  color: #484848;
+  border-color: #484848;
+}
+#mce-error-response, #mce-success-response {
+  color: white;
+  font-size: 1.25em;
+  width: 354px;
+}
