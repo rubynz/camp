@@ -18,8 +18,20 @@ p, li {
   color: #2F96D4;
 }
 
+.text-center {
+  text-align: center;
+}
+
+/* The top */
+
 .feature {
   padding: 40px 0;
+}
+
+.ruby {
+  float: left;
+  height: 100px;
+  margin: 10px 0 15px 0;
 }
 
 .feature h1, .feature p, .feature a, .feature a:hover {
@@ -62,6 +74,8 @@ p, li {
   }
 }
 
+/* The middle */
+
 .white-background {
   margin: 40px 0;
   background: white;
@@ -91,11 +105,8 @@ p, li {
   padding-bottom: 20px;
 }
 
-.text-center {
-  text-align: center;
-}
 
-
+/* The bottom */
 
 footer .icon-anvils-axes {
   font-size: 3em;
@@ -112,11 +123,6 @@ footer a {
   color: white;
 }
 
-.ruby {
-  float: left;
-  height: 100px;
-  margin: 10px 0 15px 0;
-}
 
 @font-face {
   font-family: 'Anvils-Axes';
