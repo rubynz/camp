@@ -1,39 +1,112 @@
 html,body {
-  font-family: 'Pathway Gothic One';
-}
-html,body,footer {
-  min-width: 670px;
-}
-
-html {
-  background: url('../images/rails_camp_min.jpg') no-repeat center top fixed;
-  background-size: cover;
   margin: 0;
   padding: 0;
 }
 
-footer {
-  width: 100%;
+body {
+  background: url('../images/rails_camp_min.jpg') no-repeat center top fixed;
+  background-size: cover;
+  margin: 40px 0;
 }
 
-h1,h2,h3,p,a, form label {
+p, li {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+.blue {
+  color: #2F96D4;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* The top */
+
+.feature {
+  padding: 40px 0;
+}
+
+.ruby {
+  float: left;
+  height: 100px;
+  margin: 10px 0 15px 0;
+}
+
+.feature h1, .feature p, .feature a, .feature a:hover {
+  font-family: 'Pathway Gothic One';
   color: white;
 }
 
-h1 {
-  font-size: 8em;
-  margin-left: 10%;
-  width: 2em;
+.feature h1{
+  float: left;
+  font-size: 128px;
   line-height: 0.9em;
   text-shadow: #484848 2px 2px;
   font-weight: normal;
 }
-
-footer {
-  position: absolute;
-  bottom: 20px;
-  margin-left: 10%;
+.feature .subtitle{
+  padding: 0 40px;
+  float: left;
 }
+
+.feature .subtitle p{
+  float: left;
+  width: 100%;
+  font-family: 'Old Standard TT';
+  font-size: 24px;
+}
+
+.feature .subtitle .buy a{
+  font-size: 36px;
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .feature h1, .feature .subtitle{
+    width: 100%;
+    text-align: center;
+  }
+
+  .feature .subtitle img {
+    float: center;
+  }
+}
+
+/* The middle */
+
+.white-background {
+  margin: 40px 0;
+  background: white;
+  color: #333;
+}
+.white-background h1, .white-background h2, .white-background h3, .white-background p {
+  color: #333;
+}
+
+.information .row {
+  padding: 40px 0;
+}
+
+.information .row:last-child{
+  padding-bottom: 80px;
+}
+
+.information h2{
+  font-family: 'Pathway Gothic One';
+  font-size: 60px;
+  padding-top: 0px;
+  padding-bottom: 50px;
+  border-bottom: 2px solid;
+}
+
+.information p{
+  padding-bottom: 20px;
+}
+
+
+/* The bottom */
 
 footer .icon-anvils-axes {
   font-size: 3em;
@@ -42,35 +115,14 @@ footer .icon-anvils-axes {
 }
 
 footer p {
-  float: left;
-  margin: 15px 0 0 10px;
+  font-size: 12px;
 }
 
 footer a {
-  text-decoration: none
+  text-decoration: none;
+  color: white;
 }
 
-.subtitle,h1 {
-  float: left;
-  margin-top: 25px;
-}
-.subtitle p, .subtitle a, form input, form input[type=submit] {
-  font-size: 1.5em;
-  margin-top: 0;
-  margin-bottom: 0;
-  clear: both;
-  font-family: 'Old Standard TT';
-  text-shadow: #484848 2px 2px;
-}
-form input, form input[type=submit] {
-  text-shadow: none;
-}
-
-.ruby {
-  float: left;
-  height: 100px;
-  margin: 10px 0 15px 0;
-}
 
 @font-face {
   font-family: 'Anvils-Axes';
@@ -101,45 +153,4 @@ form input, form input[type=submit] {
 
 .icon-anvils-axes:before {
   content: "\e60a";
-}
-
-#mc_embed_signup{clear:left; }
-#mc_embed_signup input.email {
-  border-style: solid;
-  border-color: #484848;
-  border-width: 1px;
-  border-radius: 4px;
-  padding: 3px;
-}
-#mc_embed_signup .button {
-  clear: both;
-  background-color: transparent;
-  border-style: solid;
-  border-color: white;
-  border-width: 1px;
-  border-radius: 4px;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1.25em;
-  font-weight: normal;
-  height: 44px;
-  line-height: 30px;
-  margin: 0 5px 10px 6px;
-  padding: 6px;
-  text-align: center;
-  text-decoration: none;
-  vertical-align: top;
-  white-space: nowrap;
-  width: auto;
-}
-#mc_embed_signup .button:hover {
-  background-color: white;
-  color: #484848;
-  border-color: #484848;
-}
-#mce-error-response, #mce-success-response {
-  color: white;
-  font-size: 1.25em;
-  width: 344px;
 }
