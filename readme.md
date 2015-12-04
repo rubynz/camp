@@ -1,6 +1,6 @@
 # Rails Camp NZ Website
 
-View it here: [http://camp.ruby.org.nz/](http://camp.ruby.org.nz/)
+View it here: [http://camp.ruby.nz/](http://camp.ruby.nz/)
 
 ## Contributing
 
