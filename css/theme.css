@@ -105,21 +105,21 @@ p, li {
   padding-bottom: 20px;
 }
 
-.sponsors > h3 {
+.friends > h3 {
   padding: 0 15px 15px;
   margin-bottom: 15px;
   border-bottom: 1px solid #666;
   overflow: hidden;
 }
-.sponsors > h3 ~ h3 {
+.friends > h3 ~ h3 {
   padding-top: 40px;
 }
 
-.sponsors .sponsor {
+.friends .friend {
   padding: 15px;
 }
 
-.sponsor-logo {
+.friend-logo {
   max-width: 100%;
 }
 
